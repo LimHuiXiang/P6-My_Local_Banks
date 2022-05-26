@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Local Banks</string>
+    <string name ="bank1">DBS </string>
+    <string name ="bank2">OCBC </string>
+    <string name ="bank3">UOB </string>
+    <string name ="language1">English</string>
+    <string name ="language2">Chinese</string>
+    <string name ="bank1chinese">星展银行</string>
+    <string name ="bank2chinese">华侨银行</string>
+    <string name ="bank3chinese">大华银行</string>
+    <string name ="bank1url">https://www.dbs.com.sg</string>
+    <string name ="bank2url">https://www.ocbc.com</string>
+    <string name ="bank3url">https://www.uob.com.sg</string>
+    <string name ="bank1no">18001111111</string>
+    <string name ="bank2no">18003633333</string>
+    <string name ="bank3no">18002222121</string>
+
+
+</resources>
