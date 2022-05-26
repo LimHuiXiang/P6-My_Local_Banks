@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     String TextViewClicked = "";
     String url = "";
     String phoneno = "";
-    boolean favDBS = false, favOCBC = false, favUOB = false;
+    boolean favDBS = true, favOCBC = true, favUOB = true;
 
 
     @Override
@@ -50,12 +50,25 @@ public class MainActivity extends AppCompatActivity {
             TextViewClicked = "UOB";
 
     }
+    /*if(favDBS ==true){
+        DBS.setTextColor(#FF018786);
+
+
+
+    }else if(favUOB = false){
+
+    }else
+            favOCBC=true
+        text.setTextC= black;
+
+     */
+
 
 
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (TextViewClicked.equalsIgnoreCase("DBS")) {
+        if (TextViewClicked.equalsIgnoreCase(getString(R.string.bank1))) {
             if (item.getItemId() == 0) {
                 Intent intent = new Intent(Intent.ACTION_VIEW,
                         Uri.parse("https://www.dbs.com.sg/index/default.page#wm"));
